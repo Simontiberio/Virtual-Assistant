@@ -2,7 +2,8 @@ import streamlit as st
 from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
-from downloads_documents import cargar_documentos, crear_vectorstore
+from functions.vectors_create import crear_vectorstore
+from functions.load_documents import cargar_documentos
 from langchain_community.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 
