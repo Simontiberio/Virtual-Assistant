@@ -1,0 +1,5 @@
+poetry.lock
+validation_assistant.ipynb
+__pycache__
+.ipynb_checkpoints
+documents/
